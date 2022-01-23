@@ -20,4 +20,5 @@ class Person
     age_in_years = age_in_days / 365
 
     return age_in_years.to_i
+  end
 end
