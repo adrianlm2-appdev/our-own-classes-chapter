@@ -7,6 +7,7 @@
 #  - An instance method, age, that calculates the number of years between today and birthdate
 
 class Person
+  require("date")
   attr_accessor :first_name
   attr_accessor :last_name
   attr_accessor :birthdate
