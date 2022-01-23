@@ -13,7 +13,7 @@ class Person
   def full_name
     return self.first_name + " " + self.last_name
   end
-  def age_calculator
+  def age
     dob = Date.parse(self.birthdate)
     now = Date.today
     age_in_days = now - dob
