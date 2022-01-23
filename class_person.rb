@@ -18,7 +18,7 @@ class Person
     dob = Date.parse(self.birthdate)
     now = Date.today
     age_in_days = now - dob
-    age_in_years = age_in_days / 365
+    age_in_years = age_in_days / 364
 
     return age_in_years.to_i
   end
